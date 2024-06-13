@@ -1,11 +1,11 @@
 export const contactsData = {
-    email: 'abusaid7388@gmail.com',
-    phone: '+8801608797655',
-    address: 'Middle Badda, Dhaka, Bangladesh - 1212 ',
-    github: 'https://github.com/said7388',
-    facebook: 'https://www.facebook.com/abusaid.riyaz/',
-    linkedIn: 'https://www.linkedin.com/in/abu-said-bd/',
-    twitter: 'https://twitter.com/said7388',
-    stackOverflow: 'https://stackoverflow.com/users/16840768/abu-said',
-    devUsername: "said7388"
-}
+  email: "alex@melodicalbuild.com",
+  phone: "Contact for Info",
+  address: "Contact for Info",
+  github: "https://github.com/melodicalbuild",
+  //facebook: 'https://www.facebook.com/abusaid.riyaz/',
+  linkedIn: "https://www.linkedin.com/in/alex-drum-1b1022296/",
+  twitter: "https://twitter.com/melodicalbuild",
+  stackOverflow: "https://stackoverflow.com/users/14543863/melodicalbuild",
+  devUsername: "MelodicAlbuild",
+};

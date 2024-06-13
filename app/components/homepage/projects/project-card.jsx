@@ -3,7 +3,7 @@
 import * as React from 'react';
 
 function ProjectCard({ project }) {
-
+  
   return (
     <div className="from-[#0d1224] border-[#1b2c68a0] relative rounded-lg border bg-gradient-to-r to-[#0a0d37] w-full">
       <div className="flex flex-row">
@@ -61,6 +61,15 @@ function ProjectCard({ project }) {
             <span className="text-cyan-400">{' ' + project.description}</span>
             <span className="text-gray-400">,</span>
           </div>
+          {project.private ? (<><div className="ml-4 lg:ml-8 mr-2">
+            <span className="text-white">Private:</span>
+            <span className="text-cyan-400">{' True'}</span>
+            <span className="text-gray-400">,</span>
+          </div></>) : (<><div className="ml-4 lg:ml-8 mr-2">
+            <span className="text-white">githubLink:</span>
+            <span className="text-cyan-200">{' '}<a href={project.demo} target="_blank">{project.demo}</a></span>
+            <span className="text-gray-400">,</span>
+          </div></>)}
           <div><span className="text-gray-400">{`};`}</span></div>
         </code>
       </div>
