@@ -5,11 +5,14 @@ import { extras } from "@/utils/data/extras";
 import { BsChatFill } from "react-icons/bs";
 import AnimationLottie from "../../helper/animation-lottie";
 import GlowCard from "../../helper/glow-card";
-import lottieFile from '/public/lottie/development.json';
+import lottieFile from "/public/lottie/development.json";
 
 function Extras() {
   return (
-    <div id="education" className="relative z-50 border-t my-12 lg:my-24 border-[#25213b]">
+    <div
+      id="extras"
+      className="relative z-50 border-t my-12 lg:my-24 border-[#25213b]"
+    >
       <Image
         src="/section.svg"
         alt="Hero"
@@ -43,8 +46,8 @@ function Extras() {
 
           <div>
             <div className="flex flex-col gap-6">
-              {
-                extras.map(extra => (
+              {extras.map((extra) => (
+                <a href={extra.link} target="_blank">
                   <GlowCard key={extra.id} identifier={`extra-${extra.id}`}>
                     <div className="p-3 relative text-white">
                       <Image
@@ -67,19 +70,23 @@ function Extras() {
                           <p className="text-base sm:text-xl mb-2 font-medium uppercase">
                             {extra.title}
                           </p>
-                          <p className="text-sm sm:text-base text-cyan-200"><a href={extra.link} target="_blank">{extra.linkName}</a></p>
+                          <p className="text-sm sm:text-base text-cyan-200">
+                            <a href={extra.link} target="_blank">
+                              {extra.linkName}
+                            </a>
+                          </p>
                         </div>
                       </div>
                     </div>
                   </GlowCard>
-                ))
-              }
+                </a>
+              ))}
             </div>
           </div>
         </div>
       </div>
     </div>
   );
-};
+}
 
 export default Extras;
