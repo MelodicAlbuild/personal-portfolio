@@ -18,31 +18,6 @@ export const projectsData = [
   },
   {
     id: 2,
-    name: "Pokemon Game Engine - SDL2",
-    description:
-      "I designed and developed a complete Pokemon like Game Engine from scratch in C# using SDL2. I also leveraged a completely custom programming language, custom compilers and interpriters, and low level C and C++ programming to develop tools to manage and handle the custom language and formatting.",
-    tools: [
-      "C#",
-      "C",
-      "C++",
-      "SDL2",
-      "SQLite",
-      "MySQL",
-      ".NET",
-      "Ruby",
-      "OpenGL",
-      "Audio Processing",
-      "Custom Language Management",
-      "Low Level Data Management",
-    ],
-    role: "Complete Developer",
-    code: "",
-    demo: "",
-    private: true,
-    image: travel,
-  },
-  {
-    id: 3,
     name: "Valous Data Engine",
     description:
       "I built a complete data driven game engine that works off of one of many data sources to create and demonstrate games. I also wrote a complete network library called ValousCloud that handles realtime networking between game instances.",
@@ -72,7 +47,7 @@ export const projectsData = [
     image: realEstate,
   },
   {
-    id: 4,
+    id: 3,
     name: "Zennix",
     description:
       "I developed a from scratch programming language for inhouse development that greatly increases my development time. Zennix helps me develop hundreds of tools quickly by integrating seemlessly with all of my infrastructure. My entire internal tooling and server systems are built on Zennix.",
