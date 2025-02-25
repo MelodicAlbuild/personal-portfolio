@@ -13,5 +13,5 @@ export const personalData = {
   twitter: "https://twitter.com/melodicalbuild",
   stackOverflow: "https://stackoverflow.com/users/14543863/melodicalbuild",
   devUsername: "MelodicAlbuild",
-  resume: "https://melodicalbuild.github.io/Resume.pdf",
+  resume: "https://melodicalbuild.github.io/RichardDrumResume.pdf",
 };
